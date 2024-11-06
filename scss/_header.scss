@@ -1,0 +1,23 @@
+header{
+        display: flex;
+        border-bottom: #999 solid 2px;
+        width: 90%;
+        margin: 0 auto;
+        h1{
+            flex-grow: 6;
+            font-size: small;
+            width: 80%;
+            padding: 10px 0 10px 10px;
+            font-size: small;
+            font-family: "Poppins", serif;
+            font-weight: 400;
+        }
+        img{
+            flex-grow: 1;
+            display: block;
+            text-align: end;
+            width: 35px;
+            height: 35px;
+            padding-right: 10px;
+        }
+}

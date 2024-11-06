@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-extra {
+  background-color: #eee;
+  width: 100%;
+  height: 500px;
+  padding-top: 100px;
+}
+.container-extra .container {
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  border: #000 solid 2px;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  border-bottom: #999 solid 2px;
+  width: 90%;
+  margin: 0 auto;
+}
+header h1 {
+  flex-grow: 6;
+  font-size: small;
+  width: 80%;
+  padding: 10px 0 10px 10px;
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+header img {
+  flex-grow: 1;
+  display: block;
+  text-align: end;
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+main p {
+  padding: 10px 0 10px 0px;
+  color: #666;
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+main .tom {
+  display: flex;
+}
+main .tom img {
+  width: 25px;
+  border-radius: 10px;
+}
+main .tom .tominfo {
+  flex-grow: 6;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+}
+main .tom .tominfo h2 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .tom .tominfo p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+}
+main .tom div {
+  text-align: end;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+main .tom div h3 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: small;
+  color: #00ee22;
+}
+main .tom div p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+  opacity: 50%;
+}
+main .flow {
+  display: flex;
+  padding-top: 5px;
+}
+main .flow img {
+  width: 35px;
+  height: 35px;
+}
+main .flow .flowinfo {
+  flex-grow: 6;
+  width: 30%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main .flow .flowinfo h2 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .flow .flowinfo p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+}
+main .flow div {
+  flex-grow: 1;
+  text-align: end;
+  padding-right: 10px;
+}
+main .flow div h3 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .flow div p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+  opacity: 50%;
+}
+main .eren {
+  display: flex;
+}
+main .eren img {
+  width: 25px;
+  border-radius: 10px;
+}
+main .eren .ereninfo {
+  flex-grow: 6;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: left;
+}
+main .eren .ereninfo h2 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .eren .ereninfo p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+}
+main .eren div {
+  flex-grow: 1;
+  text-align: end;
+  width: 10%;
+  padding-right: 10px;
+}
+main .eren div h3 {
+  font-size: small;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+main .eren div p {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: smaller;
+  padding: 0px;
+  opacity: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

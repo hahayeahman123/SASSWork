@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-extra{
+    background-color: #eee;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    .container{
+        background-color: #fff;
+        display: block;
+        margin: 0 auto;
+        width: 20%;
+        border: #000 solid 2px;
+        border-radius: 10px;
+    }
+}
